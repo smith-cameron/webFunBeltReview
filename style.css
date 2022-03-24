@@ -1,0 +1,248 @@
+#wrapper {
+    width: 970px;
+    height: fit-content;
+    margin: 0px auto;
+}
+#headernav {
+    background: rgb(223,223,223);
+background: linear-gradient(0deg, rgba(223,223,223,1) 0%, rgba(237,237,237,1) 35%, rgba(247,247,245,1) 100%);
+    width: 966px;
+    height: 60px;
+    margin-top: 3px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #eee;
+}
+#headernav img{
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#headernav ul{
+    display: inline-block;
+    margin-top: 0px;
+    width: 70%;
+    padding-inline-start: 0px;
+    vertical-align: top;
+}
+#headernav li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    border-right-color: #eee;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+#headernav a{
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+#search {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    width: 179px;
+}
+#search input{
+    margin-bottom: 5px;
+    padding: 0px;
+    height: 25px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-width: 0px;
+    vertical-align: top;
+}
+#search img{
+    padding: 0px;
+    height: 25px;
+    width: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+#mainsoftwareimage {
+    width: 970px;
+    margin-top: 15px;
+    vertical-align: top;
+}
+#navbar {
+    background-color: #4b4d4c;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 970px;
+    height: 38px;
+    margin: 0px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
+#navbar a{
+    color: lightskyblue;
+    text-decoration: none;
+    margin: 15px 12px 15px 15px;
+    font-size: small;
+}
+#navbar .Accordance{
+    color: white;
+}
+#navbar span{
+    color: gray;
+    font-size: x-large;
+    vertical-align: middle;
+}
+#mainBody {
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #eee;
+    border-radius: 5px;
+    background: rgb(242,242,242);
+    background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(251,251,251,1) 35%, rgba(254,254,254,1) 100%);
+    padding-bottom: 50px;
+}
+#mainBody h1{
+    display: inline-block;
+    margin: 25px 10px 25px 10px;
+    padding: 5px 30px 5px 20px;
+    border-right: solid;
+    font-family: Arial, sans-serif;
+    color: #cecece;
+    font-weight: normal;
+}
+#mainBody h2{
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    color: #dbf2f5;
+    font-weight: normal;
+    padding: 10px 20px 10px 20px;
+    margin: 25px 0px 0px 25px;
+    background-color: #4e89b0;
+    vertical-align: top;
+    border-radius: 5px;
+}
+#mainBody h2 span{
+    margin-left: 60px;
+}
+#content{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-color: #eee;
+}
+#content ul{
+    display: inline-block;
+    list-style: none;
+    width: 210px;
+    padding-right: 13px;
+    margin: 20px 0px 30px 0px;
+    padding-inline-start: 13px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-color: #eee;
+}
+#content .Buy{
+    border-right-style: none;
+    border-right-width: 0px;
+}
+#content a{
+    display: inline-block;
+    border-top-width: 0px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding-left: 15px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+#content li p{
+    font-weight: normal;
+    font-size: small;
+}
+.contentIcon{
+    width: 30px;
+}
+.contentImage{
+    width: 210px;
+}
+#content h4{
+    text-align: center;
+    background-color: #4e89b0;
+    color: #dbf2f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+#content .tourButton{
+    margin-top: 25px;
+}
+#content .trialButton{
+    margin-top: 19px;
+}
+#content .buyButton{
+    margin-top: 30px;
+}
+#content a.tourHead{
+    margin-top: 8px;
+}
+#content a.trialHead{
+    margin-top: 6px;
+}
+#content a.buyHead{
+    margin-top: 7px;
+}
+#footer{
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #eee;
+}
+#footer h5{
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 0px 85px 20px 0px;
+    margin: 40px 22.92px 0px 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #eee;
+}
+#footer ul{
+    display: inline-block;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    padding-inline-start: 0px;
+    vertical-align: top;
+}
+#footer li{
+    margin-top: 10px;
+}
+#platform{
+    margin-left: 12px;
+}
+#store{
+    margin-left: 20px;
+}
+#support{
+    margin-left: 40px;
+}
+#community{
+    margin-left: 47px;
+}
+#oaktree{
+    margin-left: 60px;
+}
+#closer{
+    font-family: Arial, sans-serif;
+    font-size: smaller;
+}
+#closer a{
+    color: #4e89b0;
+}
